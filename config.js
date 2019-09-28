@@ -1,17 +1,17 @@
 module.exports = {
-  title: 'Dev Blog', // Required
-  author: 'Ryan Fitzgerald', // Required
-  description: 'Full-stack Web Developer',
+  title: 'fudge.org', // Required
+  author: 'Jay Cuthrell', // Required
+  description: 'Corprate Free Safety',
   primaryColor: '#3498db', // Required
   showHeaderImage: true,
   showShareButtons: true,
   postsPerPage: 5, // Required
   social: {
-    website: 'https://ryanfitzgerald.ca',
-    github: 'https://github.com/ryanfitzgerald',
-    twitter: 'https://twitter.com/ryanafitzgerald',
-    linkedin: 'https://ca.linkedin.com/in/ryanafitzgerald',
+    website: 'https://jaycuthrell.com',
+    github: 'https://github.com/jaycuthrell',
+    twitter: 'https://twitter.com/jaycuthrell',
+    linkedin: 'https://ca.linkedin.com/in/jaycuthrell',
   },
-  pathPrefix: '/devblog',
-  siteUrl: 'https://ryanfitzgerald.github.io/devblog/',
+  pathPrefix: '/',
+  siteUrl: 'https://fudge.org/',
 };
