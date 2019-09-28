@@ -1,18 +1,9 @@
 ---
-comments: false
+
 date: 2001-09-14 18:59:59
-layout: post
-slug: here-it-comes
 title: Here It Comes
-cover: http://farm1.static.flickr.com/7/7518920_bc2a25d35f_m.jpg
-wordpress_id: 24045
-categories:
-- random
-- Scient and iXL
-tags:
-- ixl
-- security
-- travel
+featuredImage: 7518920.jpg
+
 ---
 
 
@@ -35,4 +26,3 @@ To ensure the safety and security of airline passengers, heightened security mea
 - There will be an **increased presence of law enforcement and security personnel** at airports, where there will also be **heightened vigilance for unattended bags**.
 
 - **No knives of any size, or made from any material are permitted on flights**.
-
