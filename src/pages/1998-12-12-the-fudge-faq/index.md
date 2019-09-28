@@ -1,17 +1,8 @@
 ---
-comments: false
-date: 1998-12-12 12:48:33
-layout: post
-slug: the-fudge-faq
+date: "1998-12-12"
 title: The Fudge FAQ
-image:
-  path: /images/1998.jpg
-  credit: Jay Cuthrell
-wordpress_id: 2708
-categories:
-- random
-tags:
-- faq
+author: Jay Cuthrell
+featuredImage: './1998.jpg'
 ---
 
 People often ask me "Why Qthrul? Why fudge?"
