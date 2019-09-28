@@ -1,18 +1,8 @@
 ---
-comments: true
 date: 2000-04-29 00:59:10
-layout: post
-slug: tel-aviv-traceroute
 title: Tel Aviv Traceroute
-cover: http://farm1.static.flickr.com/26/59479459_e0f1431bcd_m.jpg
-wordpress_id: 24028
-categories:
-- random
-- Scient and iXL
-tags:
-- geek
-- ixl
-- travel
+featuredImage: israel.jpg 
+
 ---
 
 
