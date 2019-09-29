@@ -18,8 +18,8 @@ function Header({ config }) {
         {userConfig.showHeaderImage && (
           <HeaderImage/>
         )}
-        <H1><Link to="/">{author}</Link></H1>
-        <P>{description}</P>
+        <P><Link to="/">{author}</Link></P>
+        <P><Link to="/">{description}</Link></P>
       </Wrapper>
     </Container> 
   );

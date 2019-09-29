@@ -1,8 +1,8 @@
 module.exports = {
-  title: 'fudge.org is the blog of Jay Cuthrell', // Required
+  title: 'fudge.org', // Required
   author: 'Jay Cuthrell', // Required
   description: 'A selection of my blog posts from 1998 to Present',
-  primaryColor: '#3498db', // Required
+  primaryColor: '#000000', // Required
   showHeaderImage: false,
   showShareButtons: false,
   postsPerPage: 1, // Required
