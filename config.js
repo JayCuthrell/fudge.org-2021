@@ -13,5 +13,5 @@ module.exports = {
     linkedin: 'https://www.linkedin.com/in/jaycuthrell',
   },
   pathPrefix: '/',
-  siteUrl: 'https://fudge.org/',
+  siteUrl: 'https://fudge.org',
 };
