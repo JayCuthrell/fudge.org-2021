@@ -1,23 +1,14 @@
 ---
-comments: true
+
 date: 2002-07-08 19:46:31
-layout: post
-slug: and-for-my-next-trick
 title: And for my next trick
-cover: http://farm4.static.flickr.com/3030/2582551200_911cc86370_m.jpg
-wordpress_id: 24076
-categories:
-- NeoNova and Digitel
-- random
-- Scient and iXL
-tags:
-- ixl
-- scient
-- travel
+featuredImage: 2582551200.jpg
+author: Jay cuthrell
+
 ---
 
-<a href="http://www.flickr.com/photos/jcuthrell/11394363596/" title="Scient by qthrul, on Flickr"></a>
-    
+![Scient](11394363596.jpg)
+
     From: Jay Cuthrell
     To: All Scient Global
     Cc: jay@cuthrell.com
@@ -34,7 +25,7 @@ Scient family,
 Fast forward to today and I am the last person from what was the Carolinas. I've been working out of the NC office (see also: Jay's House) for over a year now. That's meant, travel!!! :smile:
 
 What a ride. Traveling for client projects has allowed me to experience:
-    
+
 - Dry ribs and routers in Memphis
 - Flat beer and Red Hat Linux in RTP
 - Mongolian BBQ and Solaris in Charlotte
@@ -65,7 +56,7 @@ Best regards,
 Jay
 
 P.S. I'm joining a gym tomorrow :wink:
-  
+
     --
     Jay Cuthrell
     Infrastructure Architect
