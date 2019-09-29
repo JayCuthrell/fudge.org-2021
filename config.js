@@ -3,8 +3,8 @@ module.exports = {
   author: 'Jay Cuthrell', // Required
   description: 'A selection of my blog posts from 1998 to Present',
   primaryColor: '#3498db', // Required
-  showHeaderImage: true,
-  showShareButtons: true,
+  showHeaderImage: false,
+  showShareButtons: false,
   postsPerPage: 1, // Required
   social: {
     website: 'https://jaycuthrell.com',
