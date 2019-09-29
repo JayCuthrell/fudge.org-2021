@@ -5,12 +5,12 @@ module.exports = {
   primaryColor: '#3498db', // Required
   showHeaderImage: true,
   showShareButtons: true,
-  postsPerPage: 5, // Required
+  postsPerPage: 1, // Required
   social: {
     website: 'https://jaycuthrell.com',
     github: 'https://github.com/jaycuthrell',
-    twitter: 'https://twitter.com/jaycuthrell',
-    linkedin: 'https://ca.linkedin.com/in/jaycuthrell',
+    twitter: 'https://keybase.io/jaycuthrell',
+    linkedin: 'https://www.linkedin.com/in/jaycuthrell',
   },
   pathPrefix: '/',
   siteUrl: 'https://fudge.org/',
