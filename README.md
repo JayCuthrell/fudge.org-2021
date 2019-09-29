@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fa2e411c-fe48-40b9-8f6d-90baabf71287/deploy-status)](https://app.netlify.com/sites/fudgeorg/deploys)
+
 # Based Upon DevBlog
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/RyanFitzgerald/devblog)
