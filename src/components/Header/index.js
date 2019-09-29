@@ -20,14 +20,6 @@ function Header({ config }) {
         )}
         <H1><Link to="/">{author}</Link></H1>
         <P>{description}</P>
-        {social &&
-          <Social
-            website={social.website}
-            github={social.github}
-            twitter={social.twitter}
-            linkedin={social.linkedin}
-          />
-        }
       </Wrapper>
     </Container> 
   );
