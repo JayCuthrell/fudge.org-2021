@@ -1,7 +1,7 @@
 module.exports = {
-  title: 'fudge.org', // Required
+  title: 'fudge.org is the blog of Jay Cuthrell', // Required
   author: 'Jay Cuthrell', // Required
-  description: 'Corprate Free Safety',
+  description: 'A selection of my blog posts from 1998 to Present',
   primaryColor: '#3498db', // Required
   showHeaderImage: true,
   showShareButtons: true,
