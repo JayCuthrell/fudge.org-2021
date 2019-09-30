@@ -15,6 +15,23 @@ export default class HTML extends React.Component {
           />
           {this.props.headComponents}
           <link rel="shortcut icon" href={favicon} />
+<script
+  dangerouslySetInnerHTML={{
+    __html: `
+                      var _paq = window._paq || [];
+                      _paq.push(['trackPageView']);
+                      _paq.push(['enableLinkTracking']);
+                      (function() {
+                        var u="//cuthrell.com/links/";
+                        _paq.push(['setTrackerUrl', u+'js/']);
+                        _paq.push(['setSiteId', '2']);
+                        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js/'; s.parentNode.insertBefore(g,s);
+                       })();
+
+        `,
+  }}
+/>
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
