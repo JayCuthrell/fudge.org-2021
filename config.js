@@ -5,7 +5,7 @@ module.exports = {
   primaryColor: '#000000', // Required
   showHeaderImage: false,
   showShareButtons: false,
-  postsPerPage: 1, // Required
+  postsPerPage: 200, // Required
   social: {
     website: 'https://jaycuthrell.com',
     github: 'https://github.com/jaycuthrell',
