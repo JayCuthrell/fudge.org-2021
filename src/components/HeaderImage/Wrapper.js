@@ -1,16 +1,16 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  border: 5px solid #3598db;
-  border-radius: 50%;
-  height: 150px;
-  margin: 0 auto 15px auto;
+  border: 1px solid #efefef;
+  border-radius: 100%;
+  height: 65px;
+  margin: 0px auto 20px auto;
   overflow: hidden;
   width: 150px;
 
   img {
-    padding: 5px;
-    border-radius: 50%;
+    padding: 15px;
+    border-radius: 10%;
   }
 `;
 

@@ -20,7 +20,12 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: #f9fafc;
+    background: #ffffff;
+    background-image: url("/jaycuthrell-bio-photo.jpg");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 20%;
     font-family: 'Open Sans', sans-serif; 
     line-height: 1.5;
     padding: 50px 0;
