@@ -18,8 +18,16 @@ function Header({ config }) {
         {userConfig.showHeaderImage && (
           <HeaderImage/>
         )}
-        <P><Link to="/">{author}</Link></P>
-        <P><Link to="/">{description}</Link></P>
+        <H1><Link to="/">{author}</Link></H1>
+        <P>{description}</P>
+        {social &&
+          <Social
+            website={social.website}
+            github={social.github}
+            twitter={social.twitter}
+            linkedin={social.linkedin}
+          />
+        }
       </Wrapper>
     </Container> 
   );

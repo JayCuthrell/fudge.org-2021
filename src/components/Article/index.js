@@ -89,7 +89,7 @@ const Article = styled.article`
   }
 
   img {
-    margin: 150px 0;
+    margin: 15px 0;
   }
 `;
 
