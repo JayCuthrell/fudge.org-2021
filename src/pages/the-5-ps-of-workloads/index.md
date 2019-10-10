@@ -2,18 +2,13 @@
 layout: post
 title: "The 5 P's of Workloads"
 date: 2014-01-17
-excerpt: "Parrots, Parkeets, Poultry, Popeyes, and Pigeons"
-image:
-   path: /images/chicken.jpg
-   credit: Jay Cuthrell
-redirect_from:
- - /blog/the-5-ps-of-workloads/
+featuredImage: chicken.jpg
 
 ---
 
 Wordplay comes out in the oddest places.
 
-I was thinking about amusing apparel worn by several VCE folks and VCE alumni at conferences like OpenStack Summit, RICON, and Gluecon. Specifically, the "Vblock Systems: Loving Pets and Cattle Equally since 2009" came to mind.
+I was thinking about amusing apparel worn by several folks and alumni at conferences like OpenStack Summit, RICON, and Gluecon. Specifically, one shirt came to mind.
 
 ![Good times](https://pbs.twimg.com/media/Bd4K0PYIcAAJR3o.jpg)
 
@@ -86,6 +81,6 @@ Yeah, I said 5 P's and this is clearly number 6 to any possible number if you co
 
 
 
-The good news... all of these fowl that are not so foul have [a place to roost](https://www.emc.com/en-us/converged-infrastructure/converged-infrastructure.htm) and can be [loved equally](https://www.emc.com/en-us/converged-infrastructure/converged-infrastructure.htm).
+The good news... all of these fowl that are not so foul have a place to roost and can be loved equally.
 
 <iframe width="320" height="180" src="https://www.youtube.com/embed/hy3A3e8oCeU?rel=0" frameborder="0" allowfullscreen></iframe>
