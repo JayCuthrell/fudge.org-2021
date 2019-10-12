@@ -2,7 +2,7 @@ module.exports = {
   title: 'fudge.org', // Required
   author: 'Jay Cuthrell', // Required
   mainurl: 'https://jaycuthrell.com', // Required
-  description: 'Selected blog posts always under construction',
+  description: 'Blog posts',
   primaryColor: '#000000', // Required
   showHeaderImage: true,
   showShareButtons: true,
