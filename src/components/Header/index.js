@@ -5,11 +5,10 @@ import Container from '../Container';
 import HeaderImage from '../HeaderImage';
 import Social from '../Social';
 import P from './P';
-import Link from './Link';
 import Wrapper from './Wrapper';
 
 function Header({ config }) {
-  const { author, description, social } = config;
+  const { author, mainurl, description, social } = config;
 
   return (
     <Container>
@@ -17,7 +16,7 @@ function Header({ config }) {
         {userConfig.showHeaderImage && (
           <HeaderImage/>
         )}
-        <P><Link to="/">{description} by {author}</Link></P>
+        <P>{description} by <a href={mainurl} target="_blank">{author}</a></P>
         {social &&
           <Social
             website={social.website}
