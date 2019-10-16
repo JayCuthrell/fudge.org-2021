@@ -16,7 +16,7 @@ function Header({ config }) {
         {userConfig.showHeaderImage && (
           <HeaderImage/>
         )}
-        <P>{description} by <a href={mainurl} target="_blank">{author}</a></P>
+        <P>{description} by <a href={mainurl} target="_blank" rel="noopener noreferrer">{author}</a></P>
         {social &&
           <Social
             website={social.website}
