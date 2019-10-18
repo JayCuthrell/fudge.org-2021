@@ -49,7 +49,7 @@ I've still been focused on _new_ things. In fact, concurrent with my years of se
 
 Just like my last update, [I cannot blog about my work](https://jaycuthrell.com/disclosure).
 
-Since my last update I've broken apart my [jaycuthrell.com](https://jaycuthrell.com) and [fudge.org](https://fudge.org) to take advantage of Netlify and a new pipeline I'm working on for content updates. I'm also working to take all my [Jekyll](https://jekyll.org) content and move it over to [GatsbyJS](https://gatsbyjs.org) on Netlify with injection and basic forms but maybe functions at some point next year.
+Since my last update I've broken apart my blog content from [jaycuthrell.com](https://jaycuthrell.com) and returned it to [fudge.org](https://fudge.org) to take advantage of Netlify and a new pipeline I'm working on for content updates. I'm also working to take all my [Jekyll](https://jekyll.org) content and move it over to [GatsbyJS](https://gatsbyjs.org) on Netlify with injection and basic forms but maybe functions at some point next year.
 
 I'm also really happy with the growth of [Keybase](https://keybase.io/jaycuthrell). So, if you reading this and know me, [drop me a slightly more secure line here](https://jaycuthrell.com/contact/).
 
