@@ -1,9 +1,8 @@
 ---
 title: "My Fourth Year at VCE"
 date: "2014-10-18"
-layout: post
-redirect_from:
- - /blog/my-fourth-year-at-vce/
+featuredImage: './11989482615.jpg'
+
 ---
 
 Today is my four year mark with VCE.
@@ -11,8 +10,6 @@ Today is my four year mark with VCE.
 4 years.
 
 Wow.
-
-![Taking the stage...](https://farm3.staticflickr.com/2841/11989482615_8c2237ed1d_m_d.jpg)
 
 Oh. One more thing...
 
@@ -145,3 +142,5 @@ That's how this is done.
 So, until next time....
 
 <iframe width="300" height="168" src="//www.youtube.com/embed/n3OaS71dh1g" frameborder="0" allowfullscreen></iframe>
+
+p.s. Thanks to [Josh Atwell](https://twitter.com/Josh_Atwell/status/423897006051164160) for the featured image in this post.

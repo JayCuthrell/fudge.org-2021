@@ -1,7 +1,7 @@
 ---
 title: "My Sixth Year at VCE and My Sixth Week at Dell EMC"
 date: "2016-10-22"
-layout: post
+featuredImage: './43085287082.jpg'
 
 ---
 
@@ -52,19 +52,17 @@ beginning in so many ways.
 Where Do We Go Now
 ==================
 
-Today, it is pretty [hard to find a VCE logo](https://jaycuthrell.com/dell-emc-converged-platforms-and-solutions/). Sure, it is still referenced in a
+Today, it is pretty [hard to find a VCE logo](/dell-emc-converged-platforms-and-solutions/). Sure, it is still referenced in a
 lot of places on the Internet but the current brand is Dell EMC. Then again, if
 you try to find the original Acadia logo that can be even harder to find.
 
-[![Acadia](/images/acadia-welcome.png
-"Acadia")](http://www.vce.com/about/media/news?id=tcm:20-468)
+[![Acadia](./acadia.jpg)](http://www.vce.com/about/media/news?id=tcm:20-468)
 
-[![VCE](/images/vce.png "VCE")](http://vce.com)
+[![VCE](./vce.png)](http://vce.com)
 
-[![EMC Converged Platforms](/images/vce-logo-text.png "EMC Converged
-Platforms")](http://www.vce.com/about/media/news?id=tcm:20-36801)
+[![EMC Converged Platforms](./vce-logo-text.png)](http://www.vce.com/about/media/news?id=tcm:20-36801)
 
-[![Dell EMC](/images/dell-emc-logo-text.png "Dell EMC")](http://vce.com)
+[![Dell EMC](./dell-emc-logo-text.png)](http://vce.com)
 
 In terms of naming, the progression so far has been:
 
@@ -102,7 +100,7 @@ href="https://twitter.com/JayCuthrell/status/788778627810766848">October 19,
 Vblock, VxBlock, VxRack, and VxRail
 ===================================
 
-[![Vblock](/images/Vblock_300_FX.jpg "Vblock")](http://vce.com)
+[![Vblock](./Vblock_300_FX.jpg)](http://vce.com)
 
 Vblock and VxBlock are huge and the fervor for VxRack and VxRail are off to an
 agressive (and quite young) start that is amazing.

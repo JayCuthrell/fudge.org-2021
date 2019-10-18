@@ -1,9 +1,8 @@
 ---
 title: "My Fifth Year at VCE"
 date: "2015-10-17"
-layout: post
-redirect_from:
-  - /blog/my-fifth-year-at-vce/
+featuredImage: './24392880389.jpg'
+
 ---
 
 

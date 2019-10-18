@@ -1,8 +1,8 @@
 ---
-layout: post
 title: "My Eighth Year at Dell"
 date: "2018-10-08"
-excerpt: "Looking back on the past 12 months since my last looking back post"
+featuredImage: './30871208348.jpg'
+
 ---
 
 The traditional one year blog post continues. The year since my last work related update would best be described as a time of great changes.
@@ -11,7 +11,7 @@ The traditional one year blog post continues. The year since my last work relate
 Years of Service
 ================
 
-As of this October update, I've been with Dell for eight years. As I described [last year](/my-seventh-year-at-vce/) and [the year before](/my-seventh-year-at-vce/), the references to the past are only legacy domain names and HR or payroll related.
+As of this October update, I've been with Dell for eight years. As I described [last year](/my-seventh-year-at-vce/) and [the year before](/my-sixth-year-at-vce/), the references to the past are only legacy domain names and HR or payroll related.
 
 Eight years. Eight years is the longest commitment I've ever made to any company. Granted, dual concurrent nested mergers might not be the _same_ company but this is the longest continuous years of service record I've had in my career. It feels good. Even my 24 year old high tech nomad self would wonder who this guy is that claims to be me. 
 
@@ -85,6 +85,6 @@ Looking back, this past year has turned out to be a nuclear waste trash fire for
 
 _The Public Cloud_ might be easier than it has ever been... but so has the ability to get it very very wrong. Shifting placement of workloads may confer certain financial envelope favorability but it does not magically shift placement of responsibility and accountability.
 
-Lately, it seems like the most consistent emails I get are from [haveibeenpwned.com](https://haveibeenpwned.com/). If you reading this and know me, [drop me a slightly more secure line here](/contact/).
+Lately, it seems like the most consistent emails I get are from [haveibeenpwned.com](https://haveibeenpwned.com/). If you reading this and know me, [drop me a slightly more secure line here](https://jaycuthrell.com/contact/).
 
 So, until next time... see you later. :wink:

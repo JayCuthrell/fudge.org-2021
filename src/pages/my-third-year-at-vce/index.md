@@ -1,16 +1,11 @@
 ---
-layout: post
 title: "My Third Year at VCE"
-date: 2013-09-07 7:26
-cover: http://farm8.staticflickr.com/7446/9025001287_19db7142b4_n.jpg
-comments: true
-categories:
-- VCE
+date: 2013-09-07 
+featuredImage: './9025001287.jpg'
+
 ---
 
 Next month I'll reach my 3 year mark with VCE. 
-
-<a href="http://www.flickr.com/photos/jcuthrell/9025001287/" title="#VCE #Vblock posters at HQ by qthrul, on Flickr"></a>
 
 (In fact there is a tag just for VCE... [Three years of VCE] to be exact!)
 
@@ -19,8 +14,6 @@ The VCE rocketship has only continued to [accelerate] since I jumped on board. I
 The vision from 2010 is the reality of 2013. Ubiquitous workload substrate and an everything just works data center world are not so much a destination but an ever advancing goal. Here's to the vision of 2014 and beyond. Combinatorial optimization FTW!!!
 
 To that end, VCE is launching the next generation of market leading true converged infrastructure solutions on [September 17, 2013][accelerate].
-
-[][accelerate]
 
 More, more, more
 ----------------
@@ -79,13 +72,7 @@ Instant Replay
 
 Okay. Per my usual blogging style around here, below are a few helpful instructional videos I've collected from my recent months on the road :wink:
 
-
-
-
-
-
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/79HFkkHzCpw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Three years of VCE]:http://fudge.org/tags/vce/
 [Wheel of Pain]:http://panelpicker.sxsw.com/vote/18104

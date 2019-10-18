@@ -1,0 +1,58 @@
+---
+title: "My Ninth Year at Dell Technologies"
+date: "2019-10-18"
+featuredImage: './133203409.jpg'
+
+---
+
+The traditional one year blog post continues but the _vce_ in the URL slug will change. The year since my last work related update would best be described one door closing and another door opening. 
+
+As of this update, I'm no longer considered part of VCE and VCE references from here on are simply an alias or convention that is essentially deprecated and purely cosmetic. 
+
+Years of Service
+================
+
+According to the terms of the concurrent nested mergers, I've been with Dell Technologies for nine years. As I described in prior yearly updates, the references to VCE are fewer and fewer. That's the thing about a concurrent nester merger. Just when you think you've found all the references to the prior company, you can almost guarantee you will find another one.
+
+Last night, the last automated notification with a past reference to VCE now reflects Dell Technologies. This morning an automated note was sent at 4:15am Eastern US to congratulate me on my work anniversary.
+
+> SUBJECT: Thank you!
+> 
+> Dear Jay, *Congratulations* on your 9 years of service with Dell Technologies.
+
+It's a nice touch -- and an even nicer touch was that hovering over the word *Congratulations* inculded clever javascript fireworks. :fireworks:
+
+Amazing. I finally got around to porting some old blog posts from 2010 to present and now I can see the timeline more clearly.
+
+- 2010 [Year 0 at VCE](/private-clouds-ahead)
+- 2011 [Year 1 at VCE](/my-first-year-at-vce)
+- 2012 [Year 2 at VCE](/my-second-year-at-vce)
+- 2013 [Year 3 at VCE](/my-third-year-at-vce)
+- 2014 [Year 4 at VCE](/my-fourth-year-at-vce)
+- 2015 [Year 5 at VCE](/my-fifth-year-at-vce)
+- 2016 [Year 6 at VCE](/my-sixth-year-at-vce)
+- 2017 [Year 7 at VCE](/my-seventh-year-at-vce)
+- 2018 [Year 8 at VCE](/my-eighth-year-at-vce)
+- 2019 [Year 9 at VCE](/my-ninth-year-at-vce) 
+
+And here we are... in fact, I've put together a page [about me](https://jaycuthrell.com/about/) with a little more color.
+
+More Changes
+============
+
+While seemingly customary at this point, my role changed shortly after my last update. This time the change involved appended managing leader responsibilities in addition to assisting other leaders of leaders.
+
+I've still been focused on _new_ things. In fact, concurrent with my years of service anniverary one of those _new_ things reached a key milestone and I'm incredibly proud of the team.
+
+[REDACTED]
+==========
+
+Just like my last update, [I cannot blog about my work](https://jaycuthrell.com/disclosure).
+
+Since my last update I've broken apart my [jaycuthrell.com](https://jaycuthrell.com) and [fudge.org](https://fudge.org) to take advantage of Netlify and a new pipeline I'm working on for content updates. I'm also working to take all my [Jekyll](https://jekyll.org) content and move it over to [GatsbyJS](https://gatsbyjs.org) on Netlify with injection and basic forms but maybe functions at some point next year.
+
+I'm also really happy with the growth of [Keybase](https://keybase.io/jaycuthrell). So, if you reading this and know me, [drop me a slightly more secure line here](https://jaycuthrell.com/contact/).
+
+Until next time... see you later. :wink:
+
+**To be continued...**

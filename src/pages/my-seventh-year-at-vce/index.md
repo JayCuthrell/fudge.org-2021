@@ -1,8 +1,8 @@
 ---
-layout: post
 title: "My Seventh Year at Dell EMC"
 date: "2017-10-18"
-excerpt: "Looking back on the past 12 months since my last looking back post"
+featuredImage: './dell-emc-business-card.png'
+
 ---
 
 I started this post ten days ago. The year since my last work related update has been packed with integration activity, organizational changes, epiphanies, and a fair amount of travel.
@@ -24,7 +24,7 @@ Origin Stories
 As of this October update, I've been with Dell EMC (Converged) for seven years. [As I described last year](/my-sixth-year-at-vce/), the only reminders and references to VCE are few and far between. As an aside, I still wonder if my Acadia email address will stop working at some point.
 
 
-![7 years ago...](/images/7years.jpg)
+![7 years ago](./7years.jpg)
 
 
 The steady progression towards a Dell EMC experience has been a testament to the execution of the Dell EMC integration planning. Each week seems to bring a new update on the work that our CIO and IT group have completed and continue to complete. It's taken time, but the VCE references, and eventually EMC references, gave way to Dell EMC references.
@@ -55,7 +55,7 @@ However, the single most requested topic of discussion was not converged infrast
 
 The next most requested topic? Hybrid cloud -on- HCI. Basically, an operating model delivered on a software defined basis was the topic that shifted to a PaaS storyline.
 
-Eventually, [software defined operations](https://dellemc-symphony.readthedocs.io/en/latest/) will emerge as a topic or simply be an enabler to the next topic. I'm not sure though. The problem space is not solved. In general, this topic will require HCI penetration and growth to raise the base assumptions of automation within connecting fabrics.
+Eventually, software defined operations will emerge as a topic or simply be an enabler to the next topic. I'm not sure though. The problem space is not solved. In general, this topic will require HCI penetration and growth to raise the base assumptions of automation within connecting fabrics.
 
 To recap the top 5 topics:
 - HCI
