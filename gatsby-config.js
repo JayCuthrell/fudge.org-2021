@@ -19,7 +19,7 @@ module.exports = {
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/in/jaycuthrell`,
+        url: `https://jaycuthrell.com`,
       },
     ],
   },
