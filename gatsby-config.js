@@ -1,75 +1,54 @@
-const userConfig = require('./config');
-
 module.exports = {
   siteMetadata: {
-    title: userConfig.title,
-    author: userConfig.author,
-    description: userConfig.description,
-    siteUrl: userConfig.siteUrl,
+    title: `fudge.org by Jay Cuthrell`,
+    name: `Jay Cuthrell`,
+    siteUrl: `https://fudge.org`,
+    description: `fudge.org is the on again off again blog of Jay Cuthrell`,
+    hero: {
+      heading: ``,
+      maxWidth: 652,
+    },
+    social: [
+      {
+        name: `twitter`,
+        url: `https://keybase.io/jaycuthrell`,
+      },
+      {
+        name: `github`,
+        url: `https://github.com/jaycuthrell`,
+      },
+      {
+        name: `linkedin`,
+        url: `https://www.linkedin.com/in/jaycuthrell`,
+      },
+    ],
   },
-  pathPrefix: userConfig.pathPrefix,
   plugins: [
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "@narative/gatsby-theme-novela",
       options: {
-        path: `${__dirname}/src/pages`,
-        name: 'pages',
+        contentPosts: "content/posts",
+        contentAuthors: "content/authors",
+        basePath: "/",
       },
     },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        excerpt_separator: `<!-- end -->`,
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 700,
-              linkImagesToOriginal: false,
-              wrapperStyle: 'margin: 15px -30px !important',
-            },
-          },
-          {
-            resolve: `gatsby-remark-responsive-iframe`,
-            options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`,
-            },
-          },
-          {
-            resolve: `gatsby-remark-emoji`,
-            options: {
-              emojiConversion: `shortnameToUnicode`,
-              ascii: false,
-            },
-          },
-          'gatsby-remark-prismjs',
-          'gatsby-remark-copy-linked-files',
-          'gatsby-remark-smartypants',
-        ],
-      },
-    },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
-      },
-    },
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: userConfig.title,
-        short_name: userConfig.title,
-        start_url: userConfig.siteUrl,
-        background_color: '#fff',
-        theme_color: userConfig.primaryColor,
-        display: 'minimal-ui',
-        icon: 'src/main.jpg',
+        name: `fudge.org by Jay Cuthrell`,
+        short_name: `Jay Cuthrell`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#fff`,
+        display: `standalone`,
+        icon: `src/assets/favicon.png`,
       },
     },
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "",
+      },
+    },
   ],
 };
