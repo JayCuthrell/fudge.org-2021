@@ -35,8 +35,8 @@ module.exports = {
         sources: {
           // contentful: false,
           local: true
-        },
-      },
+        }
+      }
     },
     {
       resolve: `gatsby-plugin-mdx`,
