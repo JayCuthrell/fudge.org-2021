@@ -33,10 +33,10 @@ module.exports = {
         contentAuthors: "content/authors",
         basePath: "/",
         sources: {
-          contentful: false,
+          // contentful: false,
           local: true
-        }
-      }
+        },
+      },
     },
     {
       resolve: `gatsby-plugin-mdx`,
