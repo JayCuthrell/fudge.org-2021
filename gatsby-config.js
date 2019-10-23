@@ -11,16 +11,8 @@ module.exports = {
     },
     social: [
       {
-        name: `twitter`,
-        url: `https://keybase.io/jaycuthrell`,
-      },
-      {
         name: `github`,
         url: `https://github.com/jaycuthrell`,
-      },
-      {
-        name: `linkedin`,
-        url: `https://jaycuthrell.com`,
       },
     ],
   },
@@ -85,5 +77,6 @@ module.exports = {
         trackingId: "",
       },
     },
+    { resolve: `gatsby-plugin-sitemap` },
   ],
 };
