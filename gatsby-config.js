@@ -14,6 +14,14 @@ module.exports = {
         name: `github`,
         url: `https://github.com/jaycuthrell`,
       },
+      {
+        name: `twitter`,
+        url: `https://twitter.com/jaycuthrell`,
+      },
+      {
+        name: `linkedin`,
+        url: `https://linkedin.com/in/jaycuthrell`,
+      },
     ],
   },
   plugins: [
