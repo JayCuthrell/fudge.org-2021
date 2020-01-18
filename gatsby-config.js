@@ -6,7 +6,7 @@ module.exports = {
     siteUrl: `https://fudge.org`,
     description: `fudge.org is the on again off again blog of Jay Cuthrell`,
     hero: {
-      heading: `A selection of blog posts by Jay Cuthrell from 1998 to present.`,
+      heading: `Blog posts by Jay Cuthrell 1998 to present`,
       maxWidth: 652,
     },
     social: [
