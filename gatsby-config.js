@@ -22,10 +22,6 @@ module.exports = {
         name: `linkedin`,
         url: `https://linkedin.com/in/jaycuthrell`,
       },
-      {
-        name: 'keybase',
-        url: `https://keybase.io/jaycuthrell`,
-      },
     ],
   },
   plugins: [
