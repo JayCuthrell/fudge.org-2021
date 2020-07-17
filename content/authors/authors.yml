@@ -1,6 +1,6 @@
 - name: Jay Cuthrell
   bio: |
-    William J. Cuthrell (Jay) is an innovative and sought after servant leader. Jay leverages his extensive experiences as a CTO, VP, and GM in high growth ICT companies as well as global infrastructure consulting roles for Fortune 500 clients to be a trusted advisor on strategic technology.
+    <ul><li>Servant Leader</li><li>Corporate Free Safety</li><li><a href="https://jaycuthrell.com/about/">Former CTO / VP / GM</a></li><li>Helped grow a business from 0 to multi $B</li></ul><p>William J. Cuthrell (Jay) is an innovative and sought after servant leader. Jay leverages his <a href="https://jaycuthrell.com/resume/">extensive experiences</a> as a CTO, VP, and GM in high growth ICT companies as well as global infrastructure consulting roles for Fortune 500 clients to be a trusted advisor on strategic technology.</p><p>Jay’s expertise demonstrated through strong growth and change cycles provides a unique perspective into the future of the technology industry. His previous engagements include providing a key role as a consultant for service providers, startup companies, and investment groups. Jay is a <a href="https://jaycuthrell.com/media/">published industry author</a> as well as a frequent <a href="https://jaycuthrell.com/media/">corporate blogger</a>.</p><p>Jay holds a BS in Materials Science and Engineering from North Carolina State University and grew up in Beaufort, North Carolina. His personal blog can be found at <a href="https://fudge.org/">fudge.org</a>.</p>
   avatar: ./avatars/jay-cuthrell.jpg
   featured: true
   social:
@@ -11,4 +11,4 @@
     - name: linkedin
       url: https://linkedin.com/in/jaycuthrell
     - name: mailto
-      url: mailto:jay@cuthrell.com?SUBJECT=via+fudge.org
+      url: mailto:jay@cuthrell.com
