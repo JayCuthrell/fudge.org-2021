@@ -4,9 +4,7 @@
   avatar: ./avatars/jay-cuthrell.jpg
   featured: true
   social:
-    - url: https://jaycuthrell.com/disclosure
-    - url: https://keybase.io/jaycuthrell
-    - name: github
-      url: https://github.com/jaycuthrell
     - name: linkedin
       url: https://linkedin.com/in/jaycuthrell
+    - name: github
+      url: https://github.com/jaycuthrell
