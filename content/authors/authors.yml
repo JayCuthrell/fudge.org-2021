@@ -1,6 +1,6 @@
 - name: Jay Cuthrell
   bio: |
-    Jay Cuthrell is a Corporate Free Safety
+    William J. Cuthrell (Jay) is an innovative and sought after servant leader. Jay leverages his extensive experiences as a CTO, VP, and GM in high growth ICT companies as well as global infrastructure consulting roles for Fortune 500 clients to be a trusted advisor on strategic technology.
   avatar: ./avatars/jay-cuthrell.jpg
   featured: true
   social:
@@ -11,4 +11,4 @@
     - name: linkedin
       url: https://linkedin.com/in/jaycuthrell
     - name: mailto
-      url: jay@cuthrell.com
+      url: mailto:jay@cuthrell.com?SUBJECT=via+fudge.org
