@@ -15,8 +15,8 @@ module.exports = {
         url: `https://github.com/jaycuthrell`,
       },
       {
-        name: `linkedin`,
-        url: `https://linkedin.com/in/jaycuthrell`,
+        name: `twitter`,
+        url: `https://twitter.com/jaycuthrell`,
       },
     ],
   },
