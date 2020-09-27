@@ -1,4 +1,4 @@
-const emoji = require(`remark-emoji`)
+lconst emoji = require(`remark-emoji`)
 module.exports = {
   siteMetadata: {
     title: `fudge.org by Jay Cuthrell`,
