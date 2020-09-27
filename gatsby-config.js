@@ -91,5 +91,10 @@ module.exports = {
         exclude: [`/page/*`, `/authors/*`],
       }, 
     },
+    {
+      resolve: `gatsby-plugin-netlify-cms`,
+      options: {
+      },
+    },
   ],
 };
