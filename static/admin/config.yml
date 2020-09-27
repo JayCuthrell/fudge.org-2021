@@ -23,8 +23,8 @@ collections:
     delete: true
     path: "{{slug}}/index"
     slug: "{{slug}}"
-    media_folder: "images"
-    public_folder: "./images"
+    media_folder: ""
+    public_folder: "./"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Author", name: "author", widget: "relation", collection: "authors", valueField: "name", searchFields: ["name"] }
