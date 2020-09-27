@@ -22,7 +22,8 @@ module.exports = {
         name: `twitter`,
         url: `https://twitter.com/jaycuthrell`,
       },
-      { name: `mailto`,
+      {
+        name: `mailto`,
         url: `mailto:jay@cuthrell.com`,
       },
     ],
