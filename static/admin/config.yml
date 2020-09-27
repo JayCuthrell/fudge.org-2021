@@ -21,6 +21,7 @@ collections:
     folder: "content/posts"
     create: true
     delete: true
+    extensions: mdx
     path: "{{slug}}/index"
     slug: "{{slug}}"
     media_folder: ""
