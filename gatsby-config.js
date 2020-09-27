@@ -28,12 +28,12 @@ module.exports = {
     {
       resolve: "@narative/gatsby-theme-novela",
       options: {
-        authorsPage: true,
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
         basePath: "/",
+        authorsPage: true,
+        mailchimp: false,
         sources: {
-          // contentful: false,
           local: true
         }
       }
