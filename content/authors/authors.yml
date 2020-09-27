@@ -2,9 +2,4 @@
   bio:  |
     Howdy. Howdy. Howdy.
   avatar: ./avatars/jay-cuthrell.jpg
-  featured: true
-  social:
-    - url: https://www.linkedin.com/in/jaycuthrell
-    - url: https://twitter.com/jaycuthrell
-    - url: https://github.com/jaycuthrell
-    - url: mailto:jay@cuthrell.com
+  featured: false

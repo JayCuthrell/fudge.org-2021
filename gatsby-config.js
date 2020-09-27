@@ -22,17 +22,13 @@ module.exports = {
         name: `twitter`,
         url: `https://twitter.com/jaycuthrell`,
       },
-      {
-        name: `mailto`,
-        url: `mailto:jay@cuthrell.com`,
-      },
     ],
   },
   plugins: [
     {
       resolve: "@narative/gatsby-theme-novela",
       options: {
-        authorsPage: true,
+        authorsPage: false,
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
         basePath: "/",
