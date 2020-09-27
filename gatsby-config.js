@@ -11,12 +11,19 @@ module.exports = {
     },
     social: [
       {
+        name: `linkedin`,
+        url: `https://www.linkedin.com/in/jaycuthrell`,
+      },
+      {
         name: `github`,
         url: `https://github.com/jaycuthrell`,
       },
       {
         name: `twitter`,
         url: `https://twitter.com/jaycuthrell`,
+      },
+      { name: `mailto`,
+        url: `mailto:jay@cuthrell.com`,
       },
     ],
   },
