@@ -2,10 +2,10 @@
 title: Thinking Remotely
 author: Jay Cuthrell
 date: 2020-09-27
+excerpt: A few thoughts on the transition from full time office working
+  environments to full time remote work
 hero: 2308137265_35a3e36bb9_k.jpg
 ---
-> THIS IS A WORKING DRAFT 
-
 I've had a chance to think more about the past few months that for many might seem as though it has lasted for years not just months. This post is about thinking remotely.
 
 First, I want to be clear that I'm incredibly *fortunate* and *privileged* to be able to even had the spare time to think let alone write this post. See also: It's easy for me to say this as a long time technology consultant that has spent the majority of my career in telecommunications as well as information and communications technology (ICT) being a "road warrior" operating far outside of traditional office settings.
@@ -140,8 +140,45 @@ So, if you already have 30 Clubpoints perhaps you can [take me out for lunch](ht
 
 ## Connectivity and Community
 
-* VPN Use for Home and Mobile Broadband
-* Virtual Resource Groups
+One of the most challenging parts of transition is the sudden need to satisfy competing interests in the new home office environment. Indeed, it's no longer enough that Netflix or basic web browsing works at home -- now it's about business.
+
+### Stipends, VPN, SaaS, and Broadband Tuning
+
+Working from home might be challenging for several reasons depending on how much bandwidth you had in your prior office working environment. For example, going from an office LAN to working from home over a Vexing Productivity Neutralizer (VPN) might feel like trying to run in a swimming pool as you experience slower web or application performance.
+
+What to do?
+
+First, before getting into networking discussions ask around and find out if you can get any form of subsidy for your home office environment. It could even be as simple as asking if your favorite office chair or other ergonomic items could be loaned to you for your home office. If so, consider getting a home router that can provide more detailed statistics on your broadband use, top consumption clients, etc. 
+
+For example, when I worked for [Dell Technologies](https://delltechnologies.com) one of the perks was a one time stipend to offset home office expenses. This is not a suprising perk because [Dell has been thinking about the future of work for decades](https://www.delltechnologies.com/en-us/perspectives/podcasts-trailblazers-s04-s/). Even now Dell continues to evaluate the timing and terms of a return to traditional office buildings using an [Inversed Risk Matrix](https://www.hitechcentury.com/dell-inversed-risk-matrix/). A stipend can go a long way to getting a nice home router and loading a firmware that gives you great insights into what is taking up your precious home Internet connection.
+
+Second, find out if your workplace can take advantage of persistent VDI or even split tunnel capable VPN to limit work related Internet traffic to the VPN itself vs. attempting to require all Internet traffic flow through the VPN first. 
+
+Third, find out if your workplace can forgo VPN technology entirely by moving to a SaaS platform such as [G Suite from Google](https://gsuite.google.com) or [Microsoft Office 365](https://www.office.com). By going this route, you gain the advantage of using modern applications that never require updates or a dedicated piece of software on your computer. In fact, you're able to bring your own device (BYOD) and it all _just works_. Perfect? For 95% of typical knowledge work and office work needs -- it might just be the right answer.
+
+Fourth, find out how to get a [pi-hole](https://pi-hole.net) and apply for a [network performance probe](https://atlas.ripe.net/get-involved/become-a-host/) installed at home. Both can make a huge difference in your Internet experience and understanding performance trends as seen by a neutral third party and by blocking annoying advertising at the DNS level.
+
+Fifth, create your own specific [Down Detector](https://downdetector.com) dashboard to have a mini Network Operations Center tab in your browser that is on your work device and another home device if possible. For the most important services like your ISP be sure to bookmark their own status pages. 
+
+Examples:
+
+- [https://downdetector.com/status/zoom/](https://downdetector.com/status/zoom/)
+- [https://downdetector.com/status/office-365/](https://downdetector.com/status/office-365/)
+- [https://downdetector.com/status/dropbox/](https://downdetector.com/status/dropbox/)
+- [https://downdetector.com/status/spectrum/](https://downdetector.com/status/spectrum/)
+- [https://downdetector.com/status/att/](https://downdetector.com/status/att/)
+- [https://downdetector.com/status/verizon/](https://downdetector.com/status/verizon/)
+- and all the other services that are essential for your day to day work
+
+### Virtual Resource Groups
+
+In addition to the watercoolers, there are going to be resource groups that are virtual as well. You just have to find them and use them by reading and contributing.
+
+One great resource for remote managing leaders is [Rands Leadership Slack](https://randsinrepose.com/welcome-to-rands-leadership-slack/). Other great resources might be your own company support groups or even affinity groups on LinkedIn.
+
+The key for a virtual resource group is to be present when you need that experience of a group that might not be entirely driven by work or about work. Perhaps you'll find it in Twitter or Facebook or in apps like Signal, WhatsApp, etc.
+
+While part of Zoom now, I'm still partial to [Keybase](https://keybase.io). :smile:
 
 ## Presence and Partitions
 
@@ -182,11 +219,25 @@ So, for a modern twist why not consider a similar edge computing platform like t
 
 ### Out of Office automation
 
-Example of throttling email OOO greeetings.
+You can be in the office and also be out of the office. Let me explain...
+
+For example, let's say you decide you only want to engage in Microsoft Teams group chats or in a specific channel in Slack. GREAT! Now, let others know this if they send you an email: 
+
+Out of Office Greeting examples:
+
+_Hi, I am throttling email at this time so please find me in #austin-watercooler on Slack or DM me if my presence indicates I'm avaliable. Emails will be read within 72 hours._
+
+_Hi, I'm not using email as much these days and won't read your message for at least another week. If you need to get my attention, please find me in Microsoft Teams in the "Austin Office" team and @ me in the "Need Help" channel._
+
+_Hi. I use Discord. You know the drill. LOL._ :lol:
 
 ### Delayed delivery
 
-Example of using delayed delivery in Office 365 and G Suite Gmail.
+Sending out emails when you should clearly be sleeping might cause concern with your team and your managing leader. Consider delaying delivery of that message. 
+
+Further, understanding the time zones and global nature of your work should always be top of mind. Since some team members might interpret your email as action required right now, it would be unfair to send a detailed request just before they were trying to get some sleep. 
+
+For example, almost all modern email tools now have a form of delayed delivery to maximize the intended receipt time. In fact, you can now use delayed delivery in Office 365 and G Suite.
 
 ## Productivity and Balance
 
@@ -194,12 +245,22 @@ Now let's explore what it means to be productive and to achieve balance in a wor
 
 ### Tracking and taking vacation days
 
-Know your state of residence laws and the studies that prove the point of time away from everything work related.
+Know your state of residence laws and the studies that prove the point of time away from everything work related. Take your time away as what you've truly earned. You deserve to use your time away. 
+
+Pay yourself first. Don't put off vacation days even if it is just a stay-cation at home in another corner of your home office to play with a fun project you enjoy.
 
 ### Hard stops
 
 Respect begins when the time investment of a meeting has a start and stop. Follow up items can literally be an extension to honor a stop.
 
+When you consider the great GANTT chart that represents a team effort, it is best to respect other team members and their time. Flexibility is fine but make sure it is not a one sided flexibility at the expense of others.
+
 ### Owning your calendar
 
-Discuss how advanced managing leaders maintain their calendars with examples like Pat from VMware.
+Time investments are precious. That means you should guard your calendar to ensure you control your time investments.
+
+The most advanced managing leaders of leaders maintain their calendars with extreme precision. For example, [VMware CEO Patrick Gelsinger](https://www.wsj.com/articles/BL-ATWORKB-1910) is the canonical calendar control commander... the point is to find your approach and protect your time for thinking, planning, and growing professionally.
+
+A great practice to consider is setting aside a FREE section of your calendar in a color coded way that occurs daily when you permit others to invite you to their meetings or find time on your calendar when you publish busy/free information.
+
+Once you are working in a home office, the hours you work will very likely go far beyond what you had in an office for all the reasons stated above. So, owning your calendar is important to ensure that your calendar does not own you.
