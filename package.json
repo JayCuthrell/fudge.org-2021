@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build && cp -R static/_redirects public/ && cp -R static/robots.txt public/",
+    "build": "gatsby build && cp -R static/_redirects public/ && cp -R static/robots.txt public/ && cp -R static/preview.jpg public/",
     "dev": "gatsby develop",
     "clean": "gatsby clean"
   },
