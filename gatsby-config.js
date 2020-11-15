@@ -22,6 +22,10 @@ module.exports = {
         name: `twitter`,
         url: `https://twitter.com/jaycuthrell`,
       },
+      {
+        name: `buymeacoffee`,
+        url: `https://www.buymeacoffee.com/jaycuthrell`,
+      },
     ],
   },
   plugins: [
@@ -39,7 +43,7 @@ module.exports = {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
         basePath: "/",
-        authorsPage: true,
+        authorsPage: false,
         mailchimp: false,
         sources: {
           local: true
