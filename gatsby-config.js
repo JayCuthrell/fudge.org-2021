@@ -25,6 +25,14 @@ module.exports = {
     ],
   },
   plugins: [
+    `gatsby-plugin-typescript`,
+    `gatsby-image`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
+    `gatsby-transformer-yaml`,
+    `gatsby-plugin-theme-ui`,
     {
       resolve: "@narative/gatsby-theme-novela",
       options: {
@@ -35,7 +43,7 @@ module.exports = {
         mailchimp: false,
         sources: {
           local: true
-        }
+        },
       }
     },
     {
@@ -52,20 +60,42 @@ module.exports = {
               withWebp: true
             }
           },
-          { resolve: `gatsby-remark-copy-linked-files` },
-          { resolve: `gatsby-remark-numbered-footnotes` },
-          { resolve: `gatsby-remark-smartypants` },
-          { resolve: `gatsby-remark-responsive-iframe` },
-          {
-            resolve: "gatsby-remark-external-links",
-            options: {
-              target: "_blank",
-              rel: "noreferrer"
-            }
+       {
+          resolve: "gatsby-remark-embed-video",
+          options: {
+            width: 680,
+            ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
+            height: 400, // Optional: Overrides optional.ratio
+            related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
+	    noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
+	    urlOverrides: [
+	      {
+	        id: 'youtube',
+	        embedURL: (videoId) => `https://www.youtube-nocookie.com/embed/${videoId}`,
+	      }
+	    ] //Optional: Override URL of a service provider, e.g to enable youtube-nocookie support
+	  }
+	},
+        { resolve: `gatsby-remark-copy-linked-files` },
+        { resolve: `gatsby-remark-numbered-footnotes` },
+        { resolve: `gatsby-remark-smartypants` },
+        { resolve: `gatsby-remark-responsive-iframe` },
+        {
+          resolve: "gatsby-remark-external-links",
+          options: {
+            target: '_blank',
+            rel: 'noreferrer',
           },
+        },
         ],
         remarkPlugins: [require(`remark-emoji`),require(`remark-slug`)]
       }
+    },
+    {
+      resolve: `gatsby-plugin-emotion`,
+      options: {
+        autoLabel: process.env.NODE_ENV === `development`,
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
