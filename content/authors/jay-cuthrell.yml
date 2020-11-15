@@ -1,6 +1,6 @@
 name: Jay Cuthrell
 bio:  |
-    Hi, I'm Jay Cuthrell.
+    Hi, I'm Jay Cuthrell. Please enjoy a selection of my blog posts from 1998 to present.
 avatar: ./avatars/jay-cuthrell.jpg
 featured: true
 social:
@@ -10,3 +10,5 @@ social:
     url: https://twitter.com/jaycuthrell
   - name: github
     url: https://github.com/jaycuthrell
+  - name: buymecoffee
+    url: https://buymecoffee.com/jaycuthrell
