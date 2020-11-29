@@ -74,8 +74,8 @@ module.exports = {
             toHeading: 6,
             className: "table-of-contents"
           },
-         `gatsby-remark-autolink-headers`
        },
+       { resolve: `gatsby-remark-autolink-headers` },
        {
           resolve: "gatsby-remark-embed-video",
           options: {
