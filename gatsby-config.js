@@ -65,18 +65,6 @@ module.exports = {
             }
           },
        {
-          resolve: `gatsby-remark-table-of-contents`,
-          options: {
-            exclude: "Table of Contents",
-            tight: false,
-            ordered: false,
-            fromHeading: 1,
-            toHeading: 6,
-            className: "table-of-contents"
-          },
-       },
-       { resolve: `gatsby-remark-autolink-headers` },
-       {
           resolve: "gatsby-remark-embed-video",
           options: {
             width: 680,
@@ -137,6 +125,18 @@ module.exports = {
         exclude: [`/page/*`, `/authors/*`],
       }, 
     },
+    {
+          resolve: `gatsby-remark-table-of-contents`,
+          options: {
+            exclude: "Table of Contents",
+            tight: false,
+            ordered: false,
+            fromHeading: 1,
+            toHeading: 6,
+            className: "table-of-contents"
+          },
+       },
+       { resolve: `gatsby-remark-autolink-headers` },
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
