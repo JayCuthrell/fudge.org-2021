@@ -30,6 +30,7 @@
     "gatsby-remark-prismjs": "^3.7.0",
     "gatsby-remark-responsive-iframe": "^2.5.0",
     "gatsby-remark-smartypants": "^2.4.0",
+    "gatsby-remark-table-of-contents": ">=0.2.1",
     "gatsby-source-filesystem": "^2.5.0",
     "netlify-cms-app": ">=2.13.3",
     "prismjs": ">=1.19.0",
