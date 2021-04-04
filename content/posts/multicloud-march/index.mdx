@@ -1,110 +1,84 @@
 ---
 title: Multicloud March
 author: Jay Cuthrell
-date: 2021-03-29
-excerpt: This is a quick update as I reach my 90 day mark with Faction to
-  reflect on my multicloud immersion.
+date: 2021-04-04
+excerpt: In March I reflected on multicloud
 hero: untitled.jpg
 ---
 Time flies. This is a reflection on what I've learned since [my first day at Faction](/cloud-data-services-ahead).
 
-So, in this post I wanted to capture some thoughts over the past 90 days. While I have more thoughts that are topical, I'll use this post to reflect on my multicloud immersion.
+Basically, in this post I wanted to capture some thoughts over the past 90 days. While I have more thoughts that are topical, I'll use this post to reflect on multicloud.
 
-# Starting in a new role
+Also, I resisted publishing this on April 1st for all the obvious reasons.
 
-Keith Townsend [@CTOAdvisor](https://twitter.com/CTOAdvisor/status/1369342632883851266) raised a question on Twitter for anyone that joined a new company with a new team in the past year. I replied with a short list of what I've been up to in the past 90 days. Since Tweets are my opinions and wiped monthly by cron + python + tweepy, I'll capture a few of the list items here.
+# Multicloud Rosetta Stone Required
 
-## Listening
+Cloud service providers are growing in number. So too are their product marketing teams that each try to make unique or differentiated claims about their portfolio.
 
-There's a saying about being humble when you join a new company because a lot happened before you arrived. I agree with the saying and would extend it to include a lot may or may not have been communicated before you arrived.
+My prior decade in converged infrastructure while creating private clouds taught me the value of deterministic power, weight, cooling, and geometry for a ease of datacenter deployment. In essence, for cloud service providers, direct connectivity is the next progression: (aspiration) deterministic latency.
 
-So, even if taking on a managing leader role is not a new thing, encountering a new team is a chance to a learn about the team and for the team to learn about you. Setting aside time for one on one conversations and establishing a cadence of regular communication is important to create a foundation for success. 
+Of course, there are only so many ways to uniquely describe or brand similar things like throughput. Yet, the naming continues to stay, mostly, on... brand.
 
-## Weekly 1:1
+Saying direct sounds exclusive because it is exclusive. Then again, sometimes there times when direct is not so direct and there are approaches such network-to-network interface (NNI) which can lower costs for an acceptably lower performance.
 
-Servant leadership is a commitment to being available. I still believe that a valuable use of time is with those that you serve every week.
+The NNI discussion is for another time. For now, I'd like to share some findings from March 2021 on what it means to be at the top tier.
 
-Granted, not all organizations will follow a spans and layers model that permits one on one time investment on a weekly or even monthly basis. However, if you can make the time investment each week with around seven to nine reports it makes a huge difference in understanding patterns for healthy sustainable development.
+# Packets Express
 
-## Zoom Office Hours
+I've always been fasted by network connectivity. The higher the throughput the better, right?
 
-While writing this blog post it is roughly a year since the pandemic influenced protective sequestration began. While remote work is entirely possible for some in the knowledge industries, not everyone started down the remote work path or embraces it as the future of knowledge work.
+Throughput could be thought of as simply the bandwidth (amount) and the latency (time) to fulfill a request. As such, words like express or fast would be likely modifiers in the marketing word soup.
 
-Standing up a Zoom office hours block and customizing the waiting room is a useful tactic. Protecting time on your calendar for ad-hoc or drop in discussion is also a good tactic that can be shared in a weekly 1:1 as a way to extend available time to communicate.
+By way of [poultry analogy](/the-5-ps-of-workloads), if PaaS was poultry as a service there would be the high latency drive through lane and then there would be, well, the express lane.
 
-## Deeds Needs Bleeds
+![Chicken Express](chickenexpress_logo.jpg "Chicken Express")
 
-I picked up deeds, needs, and bleeds at Nortel when working with service providers and operating as a service provider. At the time, I recall that overhead slides were during the age of overhead projector transparencies.
+# Preferred Packet Pricing Pending
 
-* Deeds were the things to celebrate as accomplishments no matter what it might be.
-* Needs were the things that required assistance for the clearinghouse of potential helpers around you when the team came together.
-* Bleeds were a way to share a lightweight post-mortem and share failures that might help others learn from a mistake or logic miss.
+Speaking of marketing, the shorter the name the better, right? Well, a lot of ink can be spilled in trying to make poultry sound more interesting and the same applies to the delivery of packets over a network.
 
-Oddly enough, bleeds are super useful ways to *"avoid making the same mistake thrice"*.
+As an exercise, one can even arrange the various names for the top tiers of cloud service provider connectivity from shortest name to longest. So, even a simple ordering would look like this for private dedicated deterministically or even extremely low latency high bandwidth connectivity options:
 
-Thrice? Yep.
-
-*One mistake is an event.
-Two mistakes is a line.
-Three mistakes is a trend.*
-
-Alternatively, whether you call it *Starts, Stops, Keeps* or *Stop, Start, Continue* the approach is to have a simple way to gather [feedback and reflection](https://hbr.org/2011/08/three-questions-for-effective-feedback). This approach can be useful and especially powerful when there is a consensus on a particular feedback and reflection.
-
-## Published C7s and 3HAGs
-
-Planning is a big deal. Perhaps you've read [Mastering the Rockefeller Habits or Scaling Up: How a Few Companies Make It...and Why the Rest Don't (Mastering the Rockefeller Habits 2.0) by Verne Harnish](https://scalingup.com/).
-
-If you haven't you might enjoy Harnish as a distiller of several other business books and frameworks you've been exposed to in a single book. If you apply the basics from Harnish you can even put together [a strategic plan that fits on one page](https://blog.growthinstitute.com/scale-up-blueprint/opsp-one-page-strategic-plan).
-
-The C7 or Column 7 is where you get to focus on accountability in terms of key performance indicators, metrics, priorities, critical numbers, and hopefully that's more than enough for a 90 day period. Again, the goal is accountability and if there are goals they should be specific measurable attainable relevant and time bound aka the SMART mnemonic acronym.
-
-For perspective, larger long term targets might be called Big Hairy Audacious Goals or BHAGs which is something I remember from a laminated card in my wallet during the .com boom. Today, I tend to favor 3 year BHAG or 3HAGs and prefer to let the acronym be [Shannon Byrne Susko's version](https://www.metronomeunited.com) as Highly Achievable Goals.
-
-## Capturing Processes and Decision Logs
-
-As I've written here before, [The Perfect Team](https://fudge.org/the-perfect-team) is one to do it, one to write it down, and one to think ahead. So, in a typical company in a typical time there is bound to be tribal knowledge that simply escaped being written down somewhere.
-
-So, when scaling up a company, a documentation culture can help with many of the days that follow. Why? Well, if you've ever found yourself slapped in the face by a low hanging branch in the woods, you come to appreciate the alternative when someone before you has blazed a trail.
-
-## Succession Planning
-
-Even if these were not pandemic times, it would be important to have a succession plan. My early personal and professional life gave me multiple examples of what happens when people leave and life and work must go on without them.
-
-## FYSA FYA
-
-Decision making frameworks are one way to avoid what I believe was a fun Jim Barksdale quote:
-
-"If we're dealing with fact, great. If we're dealing with opinions, let's go with mine" :smile:
-
-Gathering of facts to compile alternatives as stack ranked choices to seek a commitment of of precious capital is a time tested tradition in business.
-
-## Time Bounded Agenda Team Meetings
-
-Have you ever heard the one about the difference between a SNL skit and a Monty Python skit? The latter has an ending.
-
-# Multicloud Rosetta Stone
-
-Cloud service providers are growing in number. So too are their product marketing teams. 
-
-There are only so many ways to describe or brand what are often very similar things. Yet, the naming continues to stay on... brand.
-
-You can even arrange them from shortest looking name to longest. This is highly scientific ordering.
-
-* IBM Cloud Direct Connect
-* Microsoft Azure ExpressRoute
-* Amazon Web Services DirectConnect
+* AWS Direct Connect
+* IBM Cloud Direct Link
+* Microsoft Azure ExpressRoute Direct
+* Alibaba Cloud Express Connect
 * Oracle Cloud Infrastructure FastConnect
 * Google Cloud Platform Dedicated Interconnect
 
-# Recent Press
+Naming is hard but that's four (4) references to connect and a tie for two (2) references to both express and direct. Now, let's boil them down a bit through another lens that is the inverse of how to name something in less than 45 characters.
 
-First, I didn't have anything to do with getting recent press but it is a chance to brag a bit on seeing coverage and a testament to the hard work of the team I've joined.
+In essence, these options are all marketed as the lowest latency, shortest path, and most highly performing connection to their service delivery location. However, the differences between them are many if you quickly review the documentation.
 
-* 1/4/2021 [Dataversity](https://www.dataversity.net/how-data-deduplication-reduces-cloud-data-costs/)
-* 3/3/2021 [Dell Blog](https://www.delltechnologies.com/en-us/blog/introducing-new-storage-and-data-protection-multi-cloud-innovations/)
-* 3/3/2021 [Storage Review](https://www.storagereview.com/news/dell-technologies-multi-cloud-storage-data-protection-updated)
-* 3/4/2021 [Blocks and Files](https://blocksandfiles.com/2021/03/04/dell-powerprotect-and-powerscale-friendship-with-faction/)
-* 3/5/2021 [Tech Radar](https://www.techradar.com/news/dell-ups-security-protection-on-cloud-and-storage-platforms)
-* 3/8/2021 [CRN](https://www.crn.com/slide-shows/storage/4-new-dell-and-vmware-products-from-microsoft-ignite/3)
-* 3/8/2021 [ITPro](https://www.itpro.co.uk/cloud/cloud-storage/358808/dell-and-faction-debut-multi-cloud-backup-and-data-protection-solutions)
-* 3/8/2021 [Analytics Insight](https://www.analyticsinsight.net/dell-and-faction-launch-new-storage-and-data-protection-multi-cloud-innovations/)
+* [IBM](https://cloud.ibm.com/docs/dl)
+
+  * Direct Link Dedicated offers up to 10 Gbps
+  * Pricing for port charges can be $50,000 at the top unmetered tier or $1,800 at the top metered tier ($0.025 per GB)
+  * Pricing for global routing is $2,500 at the top tier
+* [Microsoft](https://docs.microsoft.com/en-in/azure/expressroute/)
+
+  * ExpressRoute Direct offers up to 100 Gbps
+  * Pricing for port charges start at $50,000 at the top tier 
+  * Pricing for global routing is $10,000 at the top tier
+* [Alibaba](https://www.alibabacloud.com/help/product/27782.htm)
+
+  *
+  *
+* [AWS](https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html)
+
+  *
+  *
+* [Oracle](https://docs.oracle.com/en-us/iaas/Content/Network/Concepts/fastconnect.htm)
+
+  *
+  *
+* [Google](https://cloud.google.com/network-connectivity/docs/interconnect)
+
+  *
+  *
+
+# Final Thoughts
+
+While I've been enjoying Netlify for hosting my blog, I am considering yet another migration to a free tier with one of the cloud service providers. This itch to migrate is a regular occurrence for me and not a reflection on Netlify.
+
+Blogging these days will still be minimal or minor as I continue to put my efforts into documentations at the workplace. Perhaps I'll be able to change that in 2021 but it isn't a major focus.
