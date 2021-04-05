@@ -1,4 +1,4 @@
-const emoji = require(`remark-emoji`)
+const emoji = require(`gatsby-remark-emoji`)
 module.exports = {
   siteMetadata: {
     title: `fudge.org by Jay Cuthrell`,
@@ -92,7 +92,7 @@ module.exports = {
           },
         },
         ],
-        remarkPlugins: [require(`remark-emoji`),require(`remark-slug`)]
+        remarkPlugins: [require(`gatsby-remark-emoji`),require(`remark-slug`)]
       }
     },
     {
