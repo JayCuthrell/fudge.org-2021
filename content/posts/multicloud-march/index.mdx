@@ -1,15 +1,15 @@
 ---
 title: Multicloud March
 author: Jay Cuthrell
-date: 2021-04-04
+date: 2021-04-08
 excerpt: In March I reflected on multicloud
 hero: untitled.jpg
 ---
-Time flies. This is a reflection on what I've learned since [my first day at Faction](/cloud-data-services-ahead).
+Time flies. This is a reflection on what I've learned as of March 2021 since [my first day at Faction](/cloud-data-services-ahead).
 
-Basically, in this post I wanted to capture some thoughts over the past 90 days. While I have more thoughts that are topical, I'll use this post to reflect on multicloud.
+Basically, in this post I wanted to capture some thoughts over the past 90 days (technically 115). While I have more thoughts that are topical, I'll use this post to reflect on multicloud.
 
-Also, I resisted publishing this on April 1st for all the obvious reasons.
+Also, I resisted publishing this on April 1st for all the obvious reasons. :smile:
 
 # Multicloud Rosetta Stone Required
 
@@ -19,7 +19,7 @@ My prior decade in converged infrastructure while creating private clouds taught
 
 Of course, there are only so many ways to uniquely describe or brand similar things like throughput. Yet, the naming continues to stay, mostly, on... brand.
 
-Saying direct sounds exclusive because it is exclusive. Then again, sometimes there times when direct is not so direct and there are approaches such network-to-network interface (NNI) which can lower costs for an acceptably lower performance.
+Saying direct sounds exclusive because it is exclusive. Then again, sometimes there times when direct is not so direct and there are approaches such network-to-network interface (NNI) which can lower costs for an acceptable but nonetheless lowered level of performance.
 
 The NNI discussion is for another time. For now, I'd like to share some findings from March 2021 on what it means to be at the top tier.
 
@@ -37,48 +37,54 @@ By way of [poultry analogy](/the-5-ps-of-workloads), if PaaS was poultry as a se
 
 Speaking of marketing, the shorter the name the better, right? Well, a lot of ink can be spilled in trying to make poultry sound more interesting and the same applies to the delivery of packets over a network.
 
-As an exercise, one can even arrange the various names for the top tiers of cloud service provider connectivity from shortest name to longest. So, even a simple ordering would look like this for private dedicated deterministically or even extremely low latency high bandwidth connectivity options:
+As an exercise, one can even arrange the various names for the top tiers of cloud service provider connectivity from shortest name to longest. So, even a simple ordering would look like this for private dedicated (more) deterministic or even extremely low latency high bandwidth connectivity options (with links to documentation):
 
-* AWS Direct Connect
-* IBM Cloud Direct Link
-* Microsoft Azure ExpressRoute Direct
-* Alibaba Cloud Express Connect
-* Oracle Cloud Infrastructure FastConnect
-* Google Cloud Platform Dedicated Interconnect
+* [AWS Direct Connect](https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html)
+* [IBM Cloud Direct Link](https://cloud.ibm.com/docs/dl)
+* [Alibaba Cloud Express Connect](https://www.alibabacloud.com/help/product/27782.htm)
+* [Microsoft Azure ExpressRoute Direct](https://docs.microsoft.com/en-in/azure/expressroute/)
+* [Oracle Cloud Infrastructure FastConnect](https://docs.oracle.com/en-us/iaas/Content/Network/Concepts/fastconnect.htm)
+* [Google Cloud Platform Dedicated Interconnect](https://cloud.google.com/network-connectivity/docs/interconnect)
 
-Naming is hard but that's four (4) references to connect and a tie for two (2) references to both express and direct. Now, let's boil them down a bit through another lens that is the inverse of how to name something in less than 45 characters.
+Naming is hard but that's a tie for four (4) references to "cloud" and "connect" and a tie for two (2) references to both "express" and "direct". Now, let's boil them down a bit through another lens: pricing.
 
-In essence, these options are all marketed as the lowest latency, shortest path, and most highly performing connection to their service delivery location. However, the differences between them are many if you quickly review the documentation.
+* [AWS Direct Connect Pricing](https://aws.amazon.com/directconnect/pricing/)
+* [Pricing for IBM Cloud Direct Link](https://cloud.ibm.com/docs/dl?topic=dl-pricing-for-ibm-cloud-dl)
+* [Billing of dedicated connections over Express Connect circuits (Alibaba)](https://www.alibabacloud.com/help/doc-detail/54582.htm)
+* [Azure ExpressRoute pricing](https://azure.microsoft.com/en-us/pricing/details/expressroute/)
+* [FastConnect Pricing (Oracle Cloud)](https://www.oracle.com/cloud/networking/fastconnect-pricing.html)
+* [Pricing (Google Cloud Platform Dedicated Interconnect)](https://cloud.google.com/network-connectivity/docs/interconnect/pricing)
 
-* [IBM](https://cloud.ibm.com/docs/dl)
+In essence, these options are all marketed as the lowest latency, shortest path, and most highly performing connection to their service delivery location. However, the differences between them are many if you quickly review the documentation and the pricing.
 
-  * Direct Link Dedicated offers up to 10 Gbps
-  * Pricing for port charges can be $50,000 at the top unmetered tier or $1,800 at the top metered tier ($0.025 per GB)
-  * Pricing for global routing is $2,500 at the top tier
-* [Microsoft](https://docs.microsoft.com/en-in/azure/expressroute/)
+Things will obviously change but just looking at March 2021 is interesting. Just to pick out a quick example from above. 
 
-  * ExpressRoute Direct offers up to 100 Gbps
-  * Pricing for port charges start at $50,000 at the top tier 
-  * Pricing for global routing is $10,000 at the top tier
-* [Alibaba](https://www.alibabacloud.com/help/product/27782.htm)
+* You'll see pricing for throughput port charges typically from 1 Gbps to 10 Gbps for most. Yet for others, up to 100 Gbps.
+* Not to isolate AWS, but [AWS has only been offering 100 Gbps for a little over a month as of this blog post and only in select locations](https://aws.amazon.com/about-aws/whats-new/2021/02/aws-direct-connect-announces-native-100-gbps-connections-select-locations/). That's right, the most dominant first mover in cloud -- was not [the first to offer 100 Gbps](https://azure.microsoft.com/en-us/updates/expressroute-direct-is-now-available/).
+* Note: First to 100 Gbps was Azure almost two years ago and soon second by Google Cloud Platform later in 2019. AWS was third in 2021, but again, it's still a fast follow by a market leader.
 
-  *
-  *
-* [AWS](https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html)
+But let's get back the documentation and pricing.
 
-  *
-  *
-* [Oracle](https://docs.oracle.com/en-us/iaas/Content/Network/Concepts/fastconnect.htm)
+* You'll see unmetered or metered tiers.
+* You'll see additional pricing for global routing at the top tiers. You'll see different language on egress fees or waived egress fees or fees referred to euphemistically as a "data charges" (by the way, that's YOUR data).
+* For some options you'll see feature performance levels as well as options to consider that drop features in favor of raw performance.
+* Metering sophistication and [partnerships with metering in mind are interesting things to keep in mind](https://blogs.vmware.com/virtualblocks/2019/12/03/reduced-pricing-stretched-clusters-vmware-cloud-aws/)
 
-  *
-  *
-* [Google](https://cloud.google.com/network-connectivity/docs/interconnect)
+What's consistent is that each cloud service provider is pushing towards more higher performance and commands a price that reflects what the market will bear. So, I still maintain that my comment in [Social Telecom 2030](https://fudge.org/social-telecom-2030) will become true: 
 
-  *
-  *
+* *There will be a precipitous drop in memory costs and the future of egregious egress fees for cloud hosting providers is going to shift from awkward to completely unjustifiable.*
+* *Cloud egress fees are the 2020s version of long distance charges from the 1990s.*
+
+source: [Social Telecom 2030](https://fudge.org/social-telecom-2030)
 
 # Final Thoughts
 
-While I've been enjoying Netlify for hosting my blog, I am considering yet another migration to a free tier with one of the cloud service providers. This itch to migrate is a regular occurrence for me and not a reflection on Netlify.
+What's clear after looking at the current cloud service provider options for 
 
-Blogging these days will still be minimal or minor as I continue to put my efforts into documentations at the workplace. Perhaps I'll be able to change that in 2021 but it isn't a major focus.
+While I've been enjoying Netlify for hosting my blog, I am considering yet another migration to a free tier with one of the cloud service providers. This itch to migrate is a regular occurrence for me and not a reflection on Netlify but my reluctance to wait for 
+
+```
+$ gatsby build
+```
+
+Blogging these days will still be minimal or minor as I continue to put my efforts into documentations at the workplace. Perhaps I'll be able to change that in 2021 but blogging still is still a minor focus for my time.
