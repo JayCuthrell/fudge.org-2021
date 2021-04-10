@@ -42,7 +42,7 @@
     "@raae/gatsby-remark-oembed": "^0.1.1",
     "adm-zip": "^0.5.5",
     "babel-plugin-emotion": "^11.0.0",
-    "gatsby": "^3.2.1",
+    "gatsby": "^2.15.7",
     "gatsby-image": "^3.2.0",
     "gatsby-paginate": "^1.1.0",
     "gatsby-plugin-emotion": "^6.2.0",
