@@ -139,6 +139,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-emotion`,
       options: {
+	autoLabel: `development`,
       },
     },
   ],
