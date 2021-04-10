@@ -96,12 +96,6 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-emotion`,
-      options: {
-        autoLabel: process.env.NODE_ENV === `development`,
-      },
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `fudge.org by Jay Cuthrell`,
