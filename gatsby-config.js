@@ -5,7 +5,7 @@ module.exports = {
     siteUrl: `https://fudge.org`,
     description: `fudge.org is the on again off again blog of Jay Cuthrell`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Jay Cuthrell wrote this...`,
       maxWidth: 652,
     },
     social: [
