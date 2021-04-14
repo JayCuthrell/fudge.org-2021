@@ -66,9 +66,15 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          `gatsby-remark-emoji`,  // <-- this line adds emoji
-        ]
-      }
+	  {
+          resolve: `gatsby-remark-emoji`,
+	  options: {
+	    emojiConversion: `shortnameToUnicode`,
+            ascii: false,
+	    },
+          },
+        ],
+      },
     },
   ],
 };
